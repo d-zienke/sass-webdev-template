@@ -1,0 +1,14 @@
+{
+  "name": "sass-webdev-template",
+  "version": "1.0.0",
+  "description": "a basic template for medium and large web-dev projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damian",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.58.0"
+  }
+}
