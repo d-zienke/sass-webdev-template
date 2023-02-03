@@ -10,5 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "sass": "^1.58.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:d-zienke/sass-webdev-template.git"
+}
 }
