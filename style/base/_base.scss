@@ -1,0 +1,34 @@
+@use '../abstracts/variables' as var;
+
+
+html {
+    // This defines what 1rem is - for this reason, it is not in _typography.scss
+    font-size: 62.5%; // = 10px, assuming the root element is 16px
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var.$color-white;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
