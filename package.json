@@ -4,7 +4,7 @@
   "description": "a basic template for medium and large web-dev projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass style/style.scss style/style.css --watch"
   },
   "author": "Damian",
   "license": "ISC",
