@@ -1,0 +1,104 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mixin;
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var.$gutter-col-gap;
+    padding-right: var.$gutter-col-gap;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: var.$gutter-row-gap var.$gutter-col-gap;
+    // justify-content: center;
+    
+    @include mixin.breakpoint(sm) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.col {
+    width: 100%;
+
+    &--sm {
+        @include mixin.breakpoint(sm) {
+            &-25 {
+                @include mixin.col(25);
+            }
+            &-33 {
+                @include mixin.col(33.3333);
+            }
+            &-50 {
+                @include mixin.col(50);
+            }
+            &-75 {
+                @include mixin.col(75);
+            }
+            &-100 {
+                @include mixin.col(100);
+            }
+        }
+    }
+    &--md {
+        @include mixin.breakpoint(md) {
+            &-25 {
+                @include mixin.col(25);
+            }
+            &-33 {
+                @include mixin.col(33.3333);
+            }
+            &-50 {
+                @include mixin.col(50);
+            }
+            &-75 {
+                @include mixin.col(75);
+            }
+            &-100 {
+                @include mixin.col(100);
+            }
+        }
+    }
+    &--lg {
+        @include mixin.breakpoint(lg) {
+            &-25 {
+                @include mixin.col(25);
+            }
+            &-33 {
+                @include mixin.col(33.3333);
+            }
+            &-50 {
+                @include mixin.col(50);
+            }
+            &-75 {
+                @include mixin.col(75);
+            }
+            &-100 {
+                @include mixin.col(100);
+            }
+        }
+    }
+    &--xl {
+        @include mixin.breakpoint(xl) {
+            &-25 {
+                @include mixin.col(25);
+            }
+            &-33 {
+                @include mixin.col(33.3333);
+            }
+            &-50 {
+                @include mixin.col(50);
+            }
+            &-75 {
+                @include mixin.col(75);
+            }
+            &-100 {
+                @include mixin.col(100);
+            }
+        }
+    }
+}
