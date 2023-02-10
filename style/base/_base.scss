@@ -1,9 +1,27 @@
 @use '../abstracts/variables' as var;
+@use '../abstracts/mixins' as mixin;
 
 
+// This defines what 1rem is - rem unit is used everywhere, hence this is in _base.scss, and not in _typography.scss
 html {
-    // This defines what 1rem is - for this reason, it is not in _typography.scss
-    font-size: 62.5%; // = 10px, assuming the root element is 16px
+    font-size: 50%; // = 8x, assuming the root element is 16px
+    
+    @include mixin.breakpoint(sm) {
+        font-size: 62.5%; // = 10px, assuming the root element is 16px
+
+    }
+    @include mixin.breakpoint(md) {
+        font-size: 75%; // = 12px, assuming the root element is 16px
+
+    }
+    @include mixin.breakpoint(lg) {
+        font-size: 87.5%; // = 14px, assuming the root element is 16px
+
+    }
+    @include mixin.breakpoint(xl) {
+        font-size: 100%; // = 16px, assuming the root element is 16px
+
+    }
 }
 
 *, *::before, *::after {
