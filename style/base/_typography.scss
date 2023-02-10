@@ -4,11 +4,11 @@
 body {
     color: var.$color-primary;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1rem;
     color: var.$color-gray-dark;
     font-weight: 400;
     line-height: var.$line-height-md;
@@ -19,26 +19,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2.8em;
+    font-size: 2.8rem;
 }
 h2 {
-    font-size: 2.5em;
+    font-size: 2.5rem;
 }
 h3 {
-    font-size: 2.2em;
+    font-size: 2.2rem;
 }
 h4 {
-    font-size: 1.9em;
+    font-size: 1.9rem;
 }
 h5 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
 }
 h6 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
 }
 
-a {
-    font-size: 1.1em;
+a, button, .btn {
+    font-size: 1rem;
     color: var.$color-primary;
     text-decoration: none;
     &:hover {

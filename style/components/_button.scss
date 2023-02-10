@@ -1,9 +1,6 @@
 @use "../abstracts/variables" as var;
 
 .btn, button {
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    text-decoration: none;
     display: inline-block;
     padding: 1rem 1rem;
     border-radius: 10rem;
