@@ -215,11 +215,23 @@ a:hover, button:hover, .btn:hover {
   flex-shrink: 0;
   flex-basis: calc(20 * 1%);
 }
+.col-25 {
+  max-width: calc((25 * 1%) - 1.5rem);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(25 * 1%);
+}
 .col-30 {
   max-width: calc((30 * 1%) - 1.5rem);
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: calc(30 * 1%);
+}
+.col-33 {
+  max-width: calc((33 * 1%) - 1.5rem);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33 * 1%);
 }
 .col-40 {
   max-width: calc((40 * 1%) - 1.5rem);
@@ -239,11 +251,23 @@ a:hover, button:hover, .btn:hover {
   flex-shrink: 0;
   flex-basis: calc(60 * 1%);
 }
+.col-66 {
+  max-width: calc((66 * 1%) - 1.5rem);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(66 * 1%);
+}
 .col-70 {
   max-width: calc((70 * 1%) - 1.5rem);
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: calc(70 * 1%);
+}
+.col-75 {
+  max-width: calc((75 * 1%) - 1.5rem);
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(75 * 1%);
 }
 .col-80 {
   max-width: calc((80 * 1%) - 1.5rem);
@@ -277,11 +301,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(20 * 1%);
   }
+  .col--sm-25 {
+    max-width: calc((25 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25 * 1%);
+  }
   .col--sm-30 {
     max-width: calc((30 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(30 * 1%);
+  }
+  .col--sm-33 {
+    max-width: calc((33 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33 * 1%);
   }
   .col--sm-40 {
     max-width: calc((40 * 1%) - 1.5rem);
@@ -301,11 +337,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(60 * 1%);
   }
+  .col--sm-66 {
+    max-width: calc((66 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66 * 1%);
+  }
   .col--sm-70 {
     max-width: calc((70 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(70 * 1%);
+  }
+  .col--sm-75 {
+    max-width: calc((75 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(75 * 1%);
   }
   .col--sm-80 {
     max-width: calc((80 * 1%) - 1.5rem);
@@ -340,11 +388,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(20 * 1%);
   }
+  .col--md-25 {
+    max-width: calc((25 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25 * 1%);
+  }
   .col--md-30 {
     max-width: calc((30 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(30 * 1%);
+  }
+  .col--md-33 {
+    max-width: calc((33 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33 * 1%);
   }
   .col--md-40 {
     max-width: calc((40 * 1%) - 1.5rem);
@@ -364,11 +424,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(60 * 1%);
   }
+  .col--md-66 {
+    max-width: calc((66 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66 * 1%);
+  }
   .col--md-70 {
     max-width: calc((70 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(70 * 1%);
+  }
+  .col--md-75 {
+    max-width: calc((75 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(75 * 1%);
   }
   .col--md-80 {
     max-width: calc((80 * 1%) - 1.5rem);
@@ -403,11 +475,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(20 * 1%);
   }
+  .col--lg-25 {
+    max-width: calc((25 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25 * 1%);
+  }
   .col--lg-30 {
     max-width: calc((30 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(30 * 1%);
+  }
+  .col--lg-33 {
+    max-width: calc((33 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33 * 1%);
   }
   .col--lg-40 {
     max-width: calc((40 * 1%) - 1.5rem);
@@ -427,11 +511,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(60 * 1%);
   }
+  .col--lg-66 {
+    max-width: calc((66 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66 * 1%);
+  }
   .col--lg-70 {
     max-width: calc((70 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(70 * 1%);
+  }
+  .col--lg-75 {
+    max-width: calc((75 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(75 * 1%);
   }
   .col--lg-80 {
     max-width: calc((80 * 1%) - 1.5rem);
@@ -466,11 +562,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(20 * 1%);
   }
+  .col--xl-25 {
+    max-width: calc((25 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(25 * 1%);
+  }
   .col--xl-30 {
     max-width: calc((30 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(30 * 1%);
+  }
+  .col--xl-33 {
+    max-width: calc((33 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(33 * 1%);
   }
   .col--xl-40 {
     max-width: calc((40 * 1%) - 1.5rem);
@@ -490,11 +598,23 @@ a:hover, button:hover, .btn:hover {
     flex-shrink: 0;
     flex-basis: calc(60 * 1%);
   }
+  .col--xl-66 {
+    max-width: calc((66 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(66 * 1%);
+  }
   .col--xl-70 {
     max-width: calc((70 * 1%) - 1.5rem);
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: calc(70 * 1%);
+  }
+  .col--xl-75 {
+    max-width: calc((75 * 1%) - 1.5rem);
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(75 * 1%);
   }
   .col--xl-80 {
     max-width: calc((80 * 1%) - 1.5rem);
