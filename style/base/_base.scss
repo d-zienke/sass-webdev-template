@@ -4,34 +4,37 @@
 
 // This defines what 1rem is - rem unit is used everywhere, hence this is in _base.scss, and not in _typography.scss
 html {
-    font-size: 50%; // = 8x, assuming the root element is 16px
+    font-size: 100%;
+    // font-size: 50%; // = 8x, assuming the root element is 16px
     
-    @include mixin.breakpoint(sm) {
-        font-size: 62.5%; // = 10px, assuming the root element is 16px
+    // @include mixin.breakpoint(sm) {
+    //     font-size: 62.5%; // = 10px, assuming the root element is 16px
 
-    }
-    @include mixin.breakpoint(md) {
-        font-size: 75%; // = 12px, assuming the root element is 16px
+    // }
+    // @include mixin.breakpoint(md) {
+    //     font-size: 75%; // = 12px, assuming the root element is 16px
 
-    }
-    @include mixin.breakpoint(lg) {
-        font-size: 87.5%; // = 14px, assuming the root element is 16px
+    // }
+    // @include mixin.breakpoint(lg) {
+    //     font-size: 87.5%; // = 14px, assuming the root element is 16px
 
-    }
-    @include mixin.breakpoint(xl) {
-        font-size: 100%; // = 16px, assuming the root element is 16px
+    // }
+    // @include mixin.breakpoint(xl) {
+    //     font-size: 100%; // = 16px, assuming the root element is 16px
 
-    }
+    // }
 }
 
 *, *::before, *::after {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 body {
     background-color: var.$color-white;
-    margin: 0;
-    padding: 0;
+    // margin: 0;
+    // padding: 0;
 }
 
 img {
