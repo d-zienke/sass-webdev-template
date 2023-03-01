@@ -1,0 +1,27 @@
+@use '../abstracts/variables' as var;
+
+.alert {
+
+    align-self: center;
+    max-width: 100%;
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    &--warning {
+        background-color: var.$color-warninig;
+        color: rgb(0, 0, 0);
+    }
+    &--danger {
+        background-color: var.$color-danger;
+        color: rgb(0, 0, 0);
+    }
+    &--success {
+        background-color: var.$color-success;
+        color: rgb(0, 0, 0);
+    }
+}

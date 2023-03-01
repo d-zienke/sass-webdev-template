@@ -1,0 +1,10 @@
+// this animation is used by createMessage() function - it will be improved
+@keyframes vanish {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
