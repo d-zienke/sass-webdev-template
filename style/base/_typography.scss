@@ -7,7 +7,7 @@ body {
     font-size: 1rem;
 }
 
-p {
+p, input, textarea {
     font-size: 1rem;
     color: var.$color-gray-dark;
     font-weight: 400;
@@ -42,6 +42,6 @@ a, button, .btn {
     color: var.$color-primary;
     text-decoration: none;
     &:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }
 }

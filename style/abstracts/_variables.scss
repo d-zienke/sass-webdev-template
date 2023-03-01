@@ -29,8 +29,16 @@ $border-radius: $grid-base * .5;
 $color-primary: #3e618f;
 $color-accent: #63edf7;
 
+$color-success: rgb(210, 125, 22);
+$color-warninig: rgb(225, 228, 75);
+$color-danger: rgb(10, 178, 86);
+
 $color-white: #FFFFFF;
 $color-black: #000000;
 $color-gray: #C2C2C2;
 $color-gray-light: #F8F8F8;
 $color-gray-dark: #898989;
+
+// Shadows --------------------------------------------------------------------
+$box-shadow-basic: 0 .1rem .2rem 0 rgb(0 0 0 / 50%);
+$box-shadow-soft: 0 0.1rem 1rem 0 rgb(0 0 0 / 20%);

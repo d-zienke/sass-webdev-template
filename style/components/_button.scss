@@ -1,21 +1,64 @@
 @use "../abstracts/variables" as var;
 
 .btn, button {
-    display: inline-block;
-    padding: 1rem 1rem;
-    border-radius: 10rem;
-    transition: all .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 1rem;
+    margin: .2rem .5rem;
+    border-radius: .5rem;
+    transition: all .3s;
     position: relative;
     background-color: var.$color-gray-light;
     color: var.$color-primary;
     border: none;
+    cursor: pointer;
+    box-shadow: 0 .1rem .2rem 0 rgb(0 0 0 / 50%);
     
     &:hover {
-        transform: translateY(-.3rem);
-
+        transform: translateY(-.2rem);
+        box-shadow: 0 .2rem .3rem 0 rgb(0 0 0 / 50%);
+        
     }
     
     &:active {
-        transform: translateY(-.1rem);
+        transform: translateY(-.2rem);
+        box-shadow: inset 0 .1rem .3rem 0 rgb(0 0 0 / 40%);
+    }
+    
+    &--disabled {
+        cursor: not-allowed;
+        box-shadow: none;
+        border: .1rem solid var.$color-gray;
+        color: var.$color-gray-dark;
+        
+        &:hover {
+            transform: none;
+            box-shadow: none;
+        }
+        
+        &:active {
+            transform: none;
+            box-shadow: none;
+        }
+
+    }
+    
+    &--hidden {
+        // cursor: default;
+        // box-shadow: none;
+        // border: none;
+        visibility: hidden;
+        
+        // &:hover {
+        //     transform: none;
+        //     box-shadow: none;
+        // }
+        
+        // &:active {
+        //     transform: none;
+        //     box-shadow: none;
+        // }
+
     }
 }
