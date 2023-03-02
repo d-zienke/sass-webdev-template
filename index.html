@@ -43,7 +43,51 @@
         </div>
 
     </div>
-    
+
+    <div class="container">
+        <div class="row">
+            <div class="col--md-33"></div>
+            <div class="col-100 col--md-33">
+                <form class="form" id="form">
+        
+                    <div class="form__element form__element--required">
+                        <label for="username">username</label>
+                        <input type="text" name="username" id="username">
+                        <span class="form__error-msg">error message</span>
+                    </div>
+            
+                    <div class="form__element form__element--required">
+                        <label for="email">email</label>
+                        <input class="form__input-email" type="text" name="email" id="email">
+                        <span class="form__error-msg">error message</span>
+                    </div>
+            
+                    <div class="form__element form__element--required">
+                        <label for="password-1">password</label>
+                        <input type="password" name="password-1" id="password-1">
+                        <span class="form__error-msg">error message</span>
+                    </div>
+            
+                    <div class="form__element form__element--required">
+                        <label for="password-2">confirm password</label>
+                        <input type="password" name="password-2" id="password-2">
+                        <span class="form__error-msg">error message</span>
+                    </div>
+            
+                    <div class="form__element">
+                        <label for="short-message">short message</label>
+                        <textarea name="short-message" id="short-message"></textarea>
+                        <span class="form__error-msg">error message</span>
+                    </div>
+                    <span>Fields with * are required</span>
+                    <button class="btn" type="submit">Submit</button>
+            
+                </form>
+            </div>
+            <div class="col-100 col--md-33"></div>
+        </div>
+    </div>
+    <script type="module" src="script/form.js"></script>
     <script src="script/_alert.js"></script>
     <script src="script/app.js"></script>
 </body>

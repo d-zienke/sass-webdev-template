@@ -1,17 +1,85 @@
+@use '../abstracts/variables' as var;
+
 .form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    font-size: 1.2rem;
 
-    input[type="text"], textarea {
-        width: 100%;
-        border: none;
-        padding: .5rem 1rem;
-        margin-bottom: 0.5rem;
-        border-radius: .5rem;
+    &__element {
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: .3rem;
+
+        &--required {
+            > label::after {
+                content: '*';
+            }
+        }
+
+        > label {
+            color: rgb(122, 122, 122);
+            margin-bottom: 0.2rem;
+        }
+
+        > input {
+            padding: .3rem;
+            font-size: 1rem;
+            border: 1px solid rgb(145, 145, 145);
+
+            &:hover {
+                outline: 1px solid rgb(80, 49, 255);
+            }
+
+            &:focus {
+                outline: 2px solid rgb(80, 49, 255);
+                
+            }
+
+            // &[type=text] {
+
+            // }
+
+            // &[type=password] {
+
+            // }
+        }
+
+        > textarea {
+            padding: .3rem;
+            font-size: 1rem;
+
+            &:hover {
+                outline: 1px solid rgb(80, 49, 255);
+            }
+
+            &:focus {
+                outline: 2px solid rgb(80, 49, 255);
+            }
+        }
+    }
+    
+    > button[type=submit] {
+        margin-top: 0.5rem;
+        font-size: .9rem;
+        padding: 0.5rem;
+        width: 30%;
+        align-self: center;
     }
 
-    textarea {
-        // resize: none;
-        height: 5rem;
-        overflow: auto;
-    }
+    &__error-msg {
+        visibility: hidden;
+        font-size: .9rem;
+        color: var.$color-error;
+        align-self: flex-end;
+        // margin-bottom: -.5rem;
+        z-index: 1;
 
+        &--active {
+            visibility: visible;
+        }
+    }
 }
