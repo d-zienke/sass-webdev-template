@@ -76,7 +76,7 @@ function form_validatePassword (inputId) {
         form_confirmPassword(inputId)
     } else {
         console.log(`password is invalid`)
-        form_showErrorMsg(inputId, `Password is invalid`)
+        form_showErrorMsg(inputId, `Password must be 6-20 characters long, have at least one uppercase letter, lowercase letter, digit and a special character`)
     }
 }
 
