@@ -1,7 +1,7 @@
 # Sass Web-Dev Template
 
 This repository contains a web development template built using the `Sass CSS preprocessor`. 
-The repository provides a starting point for building **responsive web pages** and includes a directory structure and some pre-built CSS styles that can be used as a foundation for a new project.
+It provides a starting point for building **responsive web pages** and includes a directory structure and some pre-built CSS styles that can be used as a foundation for a new project.
 
 ## Components
 
